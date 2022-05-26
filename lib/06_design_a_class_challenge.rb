@@ -14,9 +14,9 @@ class PlayList
 
   def show_list
     if @list == []
-      p "No songs added yet"
+      return "No songs added yet"
     else
-      pp @list
+      return @list
     end
   end
 

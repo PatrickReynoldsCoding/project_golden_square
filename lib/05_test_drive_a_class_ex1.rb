@@ -31,7 +31,7 @@ class DiaryEntry
         chunk.push(word)
         counter = counter + 1
         # p chunk
-        if counter == minutes + 1 
+        if counter == (minutes * wpm)
           p chunk.join(" ")
           exit
         end
